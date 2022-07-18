@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Faisal's Portfolio",
+  "scripts": {
+    "lint": "stylelint **/*.scss",
+    "css": "sass scss/main.scss css/main.css",
+    "css:prod": "sass scss/main.scss css/main.css -s compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaisalHussain95/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "vuejs",
+    "sass",
+    "scss",
+    "front"
+  ],
+  "author": "Faisal HUSSAIN <faisal.hussain@outlook.fr>",
+  "license": "GPLV3",
+  "bugs": {
+    "url": "https://github.com/FaisalHussain95/portfolio/issues"
+  },
+  "homepage": "https://github.com/FaisalHussain95/portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.53.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-config-standard-scss": "^5.0.0"
+  }
+}
